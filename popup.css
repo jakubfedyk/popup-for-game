@@ -1,15 +1,13 @@
-.popup {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-}
 
 .popuptext {
-    position: absolute;
-    width: 700px;
-    height: 400px;
-    background-color: #555;
-    color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 20%;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: white;
     text-align: center;
     border-radius: 6px;
     padding: 8px 0;
